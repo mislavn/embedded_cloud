@@ -1,0 +1,54 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "rustup@1.26.0": {
+      "last_modified": "2024-07-07T07:43:47Z",
+      "plugin_version": "0.0.1",
+      "resolved": "github:NixOS/nixpkgs/b60793b86201040d9dee019a05089a9150d08b5b#rustup",
+      "source": "devbox-search",
+      "version": "1.26.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9fcngl4lj7lakajafyfpwddigy5x7xz3-rustup-1.26.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9fcngl4lj7lakajafyfpwddigy5x7xz3-rustup-1.26.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9zp7146714iwf140fapdi0mgb86yds92-rustup-1.26.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9zp7146714iwf140fapdi0mgb86yds92-rustup-1.26.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vj2nv91k8wpk63iyjk93y1b7fflmbjm9-rustup-1.26.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vj2nv91k8wpk63iyjk93y1b7fflmbjm9-rustup-1.26.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/crphpnlzwspccbflgfakqm45hfxw1sdx-rustup-1.26.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/crphpnlzwspccbflgfakqm45hfxw1sdx-rustup-1.26.0"
+        }
+      }
+    }
+  }
+}
