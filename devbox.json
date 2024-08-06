@@ -3,5 +3,6 @@
   "packages": [
     "rustup@1.26.0",
     "just@1.28.0",
+    "cargo-nextest@0.9.72",
   ],
 }
