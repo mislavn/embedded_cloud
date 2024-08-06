@@ -1,6 +1,90 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "just@latest": {
+      "last_modified": "2024-07-20T00:34:32Z",
+      "resolved": "github:NixOS/nixpkgs/2d65995365a2a6b05db69e344d3b673c8d541bcd#just",
+      "source": "devbox-search",
+      "version": "1.32.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ccckanc6vcj095h84hsp92f4kgjiblpj-just-1.32.0",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/vwpr0r66zc2ysz5cf4iyr345k7mv56dr-just-1.32.0-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/68rrkw55rpi9xkz0g8gi3j5b38vakp99-just-1.32.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/ccckanc6vcj095h84hsp92f4kgjiblpj-just-1.32.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hk5ijln6kcl3xh7icg46wwd6blfiaxay-just-1.32.0",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/3hp5qcj8h23ibdrkzi3swg995bzbqxvc-just-1.32.0-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/kqpkqgbf1pnc85gmw4c4lp4ayxqf1ly9-just-1.32.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/hk5ijln6kcl3xh7icg46wwd6blfiaxay-just-1.32.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w1634ijbj4d316gadgqp480sydksdani-just-1.32.0",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/ibz4bz1fgi5y5kxawjd4l0bi8v6i2rnx-just-1.32.0-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/3bfig0wi3xcnk7ilz031fpi09q361ryr-just-1.32.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/w1634ijbj4d316gadgqp480sydksdani-just-1.32.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1c8zwhwzvrv0m875aq99di6a0hf2h75i-just-1.32.0",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/13aywilvzdwi1hsiq9l8q9k50jdlmk19-just-1.32.0-man",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/rwj93jl9zig132pfq3w5scnacxdf961j-just-1.32.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/1c8zwhwzvrv0m875aq99di6a0hf2h75i-just-1.32.0"
+        }
+      }
+    },
     "rustup@1.26.0": {
       "last_modified": "2024-07-07T07:43:47Z",
       "plugin_version": "0.0.1",
