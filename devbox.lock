@@ -1,7 +1,7 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "cargo-nextest@latest": {
+    "cargo-nextest@0.9.72": {
       "last_modified": "2024-07-07T07:43:47Z",
       "resolved": "github:NixOS/nixpkgs/b60793b86201040d9dee019a05089a9150d08b5b#cargo-nextest",
       "source": "devbox-search",
